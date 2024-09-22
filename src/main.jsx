@@ -10,11 +10,11 @@ import QuetionGame from './components/QuetionGame'
 
 const router = createBrowserRouter([
   {
-    path: "/typing-game",
+    path: "/",
     element: <TypeGame/>,
   },
   {
-    path: "/quiz-game",
+    path: "/game",
     element: <QuetionGame/>,
   },
 ]);
